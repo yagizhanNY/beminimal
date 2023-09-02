@@ -5,10 +5,10 @@ export default function Navbar() {
     <nav className="w-full border-b border-gray-600 py-4 px-2 md:px-8">
       <div className="flex justify-between">
         <Link href={"/"}>BeMinimal</Link>
-        <ul className="flex font-light text-gray-300 gap-4">
+        {/* <ul className="flex font-light text-gray-300 gap-4">
           <Link href={"/categories"}>Categories</Link>
           <Link href={"/brands"}>Brands</Link>
-        </ul>
+        </ul> */}
       </div>
     </nav>
   );
