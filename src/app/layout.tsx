@@ -5,6 +5,8 @@ import { Roboto } from "next/font/google";
 
 const roboto = Roboto({ subsets: ["cyrillic"], weight: "400" });
 
+export const fetchCache = "force-no-store";
+
 export const metadata: Metadata = {
   title: "BeMinimal",
   description: "Minimal products.",
