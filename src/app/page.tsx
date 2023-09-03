@@ -1,6 +1,8 @@
 import ProductCard from "@/components/server/ProductCard";
 import { getAllEntries } from "@/services/server/contentfulService";
 
+export const revalidate = 200;
+
 export default async function Home() {
   const entries = await getAllEntries();
   return (

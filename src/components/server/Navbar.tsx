@@ -11,6 +11,7 @@ export default function Navbar() {
             alt="logo"
             width={160}
             height={160}
+            loading="eager"
           ></Image>
         </Link>
         {/* <ul className="flex font-light text-gray-300 gap-4">
