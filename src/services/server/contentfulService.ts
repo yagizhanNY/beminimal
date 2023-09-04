@@ -10,3 +10,10 @@ export const getAllEntries = async () => {
     content_type: "beMinimal",
   });
 };
+
+export const getEntriesByCategory = async (category: string) => {
+  return await client.getEntries({
+    content_type: "beMinimal",
+    "fields.category": category,
+  });
+};
