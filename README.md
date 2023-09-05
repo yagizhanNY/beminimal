@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="public/logo/logo.png"></img>
+    <img src="https://github.com/yagizhanNY/beminimal/blob/main/public/logo/logo.png?raw=true"></img>
 </div>
 
 The web site for list minimal products that I liked. Visit my web site and check the cool products.
